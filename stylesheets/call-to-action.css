@@ -1,0 +1,53 @@
+.call-to-action-container {
+    background-color: white;
+    padding: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 -280px;
+}
+
+.call-to-action-bluebox {
+    background-color: rgb(84, 142, 228);
+    padding: 50px 120px;
+    color: white;
+    font-size: 30px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
+
+
+.cta-left-section {
+    font-weight: 500;
+    min-width: 310px;
+}
+
+.cta-left-section span {
+    display: block;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.cta-right-section button {
+    background-color: rgba(84, 142, 228, 0);
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    padding: 8px;
+    width: 121px;
+    text-wrap: nowrap;
+    transition: 50ms;
+}
+
+.cta-right-section button:hover {
+    cursor: pointer;
+}
+
+.cta-right-section button:active {
+    background-color: rgba(255, 255, 255, 0.301);
+}

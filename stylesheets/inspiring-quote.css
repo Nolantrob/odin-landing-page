@@ -1,0 +1,20 @@
+.inspiring-quote-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(231, 231, 231);
+    color: rgb(32, 44, 78);
+    font-size: 35px;
+    font-style: italic;
+    margin: 0px -208px;
+    padding: 140px 350px;
+    min-width: 800px;
+}
+
+.quote-credit {
+    font-weight: bold;
+    font-style: normal;
+    margin-right: 80px;
+    align-self: flex-end;
+}

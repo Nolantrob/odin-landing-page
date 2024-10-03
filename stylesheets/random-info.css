@@ -1,0 +1,38 @@
+.random-info-container {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px -208px 0 -208px;
+    padding: 120px;
+}
+
+.random-info-title {
+    font-size: 40px;
+    font-weight: 900;
+    color: rgb(32, 44, 78);
+    margin-bottom: 50px;
+    margin-top: -50px;
+}
+
+.random-info-box-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px ;
+}
+
+.random-info-box {
+    width: 231px;
+}
+.pika-img {
+    border: 3px solid rgb(84, 142, 228);
+    border-radius: 20px;
+    margin-bottom: 12px;
+}
+
+.random-subtext {
+    font-size: 18px;
+    text-align: center;
+    color: rgb(32, 44, 78);
+}
+
